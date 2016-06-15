@@ -23,7 +23,7 @@
         "illuminate/support": "~5.0"
     },
     "require-dev": {
-        "mockery/mockery": "dev-master",
+        "mockery/mockery": "dev-master"
     },
     "minimum-stability": "stable"
 }
