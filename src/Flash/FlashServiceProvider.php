@@ -27,10 +27,10 @@ class FlashServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(SessionStore::class, LaravelSessionStore::class);
+        $this->app->bind('SmoDav\Flash\SessionStore', 'SmoDav\Flash\LaravelSessionStore');
         
         $this->app->singleton('flash', function () {
-            return $this->app->make(Notifier::class);
+            return $this->app->make('SmoDav\Flash\Notifier');
         });
     }
 }

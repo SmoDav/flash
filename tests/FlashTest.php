@@ -1,7 +1,6 @@
 <?php
 
 use Mockery as mocker;
-use SmoDav\Flash\Exceptions\InvalidFlashException;
 use SmoDav\Flash\Notifier;
 
 class FlashTest extends PHPUnit_Framework_TestCase {
@@ -69,7 +68,7 @@ class FlashTest extends PHPUnit_Framework_TestCase {
     /** @test */
     public function it_throws_exception_with_invalid_instance()
     {
-        $this->expectException(InvalidFlashException::class);
+        $this->setExpectedException('SmoDav\Flash\Exceptions\InvalidFlashException');
         
         $this->session->shouldReceive('has')->with('sf_title');
         $this->session->shouldReceive('has')->with('sf_message');
