@@ -6,6 +6,13 @@
 
 namespace SmoDav\Flash;
 
+/**
+ * Interface SessionStore
+ *
+ * @category PHP
+ * @package  SmoDav\Flash
+ * @author   David Mjomba <smodavprivate@gmail.com>
+ */
 interface SessionStore
 {
     /**

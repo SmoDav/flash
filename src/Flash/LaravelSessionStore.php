@@ -8,6 +8,15 @@ namespace SmoDav\Flash;
 
 use Illuminate\Session\Store;
 
+/**
+ * Class LaravelSessionStore
+ *
+ * Laravel implementation of the session store
+ *
+ * @category PHP
+ * @package  SmoDav\Flash
+ * @author   David Mjomba <smodavprivate@gmail.com>
+ */
 class LaravelSessionStore implements SessionStore
 {
     /**
