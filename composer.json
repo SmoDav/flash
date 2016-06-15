@@ -1,0 +1,25 @@
+{
+    "name": "smodav/flash",
+    "description": "Flash messaging package for use with laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SmoDav",
+            "email": "smodavprivate@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Flash/Support/helpers.php"
+        ],
+        "psr-4": {
+            "SmoDav\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=4.0.0"
+    },
+    "minimum-stability": "dev"
+}
