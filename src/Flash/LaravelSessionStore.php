@@ -45,6 +45,4 @@ class LaravelSessionStore implements SessionStore
     {
         return $this->session->has($key);
     }
-
-
 }

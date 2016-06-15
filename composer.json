@@ -20,7 +20,11 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": ">=4.0.0"
+        "illuminate/support": "~5.0"
     },
-    "minimum-stability": "dev"
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^5.4"
+    },
+    "minimum-stability": "stable"
 }
