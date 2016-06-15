@@ -2,6 +2,7 @@
     "name": "smodav/flash",
     "description": "Flash messaging package for use with laravel",
     "type": "library",
+    "keywords": ["flash", "alert", "laravel"],
     "license": "MIT",
     "authors": [
         {
