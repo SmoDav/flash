@@ -25,7 +25,7 @@
     <script>
         sflash({
             type: 'notice',
-            message: '{{ session('sf_notice_message') }}',
+            text: '{{ session('sf_notice_message') }}',
             timer: 3000
         });
     </script>
